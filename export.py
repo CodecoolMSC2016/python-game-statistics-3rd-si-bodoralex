@@ -1,7 +1,7 @@
 import reports
 
 input_file = 'game_stat.txt'
-export_file = open('conversation.txt', 'w')
+export_file = open('reports.txt', 'w')
 
 genres = []
 ordered_titles = []
