@@ -16,7 +16,5 @@ def main():
     for genre in genre_count.items():
         print(genre)
 
-    print()
-
 
 main()
