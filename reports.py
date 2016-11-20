@@ -49,7 +49,7 @@ def get_line_number_by_title(file_name, title):
                 title_row += 1
             raise ValueError
         except ValueError:
-            print("Title not found, ValueError raised. ")
+            pass
 
 
 def sort_abc(file_name):
@@ -83,4 +83,4 @@ def when_was_top_sold_fps(file_name):
                 return int(release_date)
             raise ValueError
     except ValueError:
-        print("Top sold FPS game not found, ValueError raised. ")
+        pass
